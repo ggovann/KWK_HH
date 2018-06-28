@@ -1,85 +1,116 @@
+@charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive');
-@import url('https://fonts.googleapis.com/css?family=Coming+Soon');
 body {
-  background-image: url("https://tse1.mm.bing.net/th?id=OIP.SBUe5ivMN3Ouhew7hK3sWgHaE3&pid=Api");
-  background-size: cover;
-  color: #ce2c65;
-  font-family: 'Cedarville Cursive', cursive;
-}
-.caption{
-  font-family: 'Coming Soon', cursive;
-  color: #2d1700;
-  border-bottom: solid;
-  line-height: 10pt;
+	background-image: url(images/green.jpg);
 }
 
-input {
-color: white;
-font-family: 'Cedarville Cursive', cursive;
-}
-h2 {
-  font-family: 'Cedarville Cursive', cursive;
-  font-size: 30pt;
-  margin-bottom:0pt;
-  margin-top: 5pt;
-  line-height: 25pt;
-}
+.top {
+  background-color: none;
+  overflow: hidden;
+  width: 1400px;
+  height: 100px;
+	padding-left: 20px;
+  margin-left: auto;
+  margin-right: auto;}
 
-button {
-  font-family: 'Cedarville Cursive', cursive;
-  -webkit-border-radius: 30;
- -moz-border-radius: 46;
- border-radius: 46px;
- color: #ce2c65;
- font-size: 30px;
- background: #bae4e5;
- padding: 10px 20px 10px 20px;
- border: solid #ce2c65 4px;
- text-decoration: none;
-
-}
-.recipe-item{
-    color: #2d1700;
-    border: 2px solid #6ac7c9;
-    background-color: #ececec;
-    font-family: 'Coming Soon', cursive;
-    align-items: center;
-}
-.ingredient-item{
-  color: #2d1700;
-  font-family: 'Coming Soon', cursive;
-  list-style-type: none;
+.topnav a {
+  float: left;
+  color: black;
   text-align: center;
-  position: relative;
-
-}
-h4 {
-  font-family: Arvo;
-  font-size: 20pt;
+  padding: 1px 30px;
+padding-left: 80px;
+  text-decoration: none;
+  font-size: 40px;
 }
 
-img {
-  padding-left: 40%;
-  height: 50%;
-  padding-top: 1%;
+.topnav a:hover {
+  background-color: none;
+  color: white;
 }
 
-.question {
-  border: dotted #000033 10px;
-  text-align: center;
-  font-family: 'Coming Soon', cursive;
-  color: #2d1700;
-  font-size: 15pt;
-}
-h1 {
-  font-family: 'Cedarville Cursive', cursive;
-  font-size: 45pt;
-  text-align: center;
-  line-height: 50pt;
+.topnav a.active {
+  background-color: none;
+  color: black;
 }
 
-.header{
-  align: center;
-  font-family: 'Cedarville Cursive', cursive;
+#logo {
+    float:left;
+}
+
+
+li {
+  display:inline;
+}
+
+#wrapper {
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1350px;
+}
+
+#container {
+  width: 1300px;
+  height: 940px;
+}
+
+#content {
+  width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  opacity: 0.87;
+  background-color: none;
+  height: 940px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  padding-top: 0px;
+  padding-right: 60px;
+  padding-bottom: 0px;
+  padding-left: 60px;
+  color: white;
+
+}
+
+#box1 {
+	width: 1224px;
+    height: 500px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: medium solid white;
+	background-color:#4D9887 ;
+	font-size: 30px;
+
+}
+
+.button {
+    background-color: #969696;
+    border: none;
+    color: white;
+    padding: 15px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+	text-decoration: none;
+}
+
+#box2 {
+	width: 1224px;
+    height: 800px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: medium solid white;
+	background-color:#4D9887 ;
+	font-size: 30px;
+
 }
