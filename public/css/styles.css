@@ -103,9 +103,33 @@ li {
 	text-decoration: none;
 }
 
-#box2 {
-	width: 1224px;
-    height: 800px;
+#box3 {
+	width: 408px;
+    height: 400px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: medium solid white;
+	background-color:#4D9887 ;
+	font-size: 30px;
+
+}
+
+#box4 {
+	width: 353px;
+    height: 400px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: medium solid white;
+	background-color:#4D9887 ;
+	font-size: 30px;
+
+}
+
+#box5 {
+	width: 408px;
+    height: 400px;
     float: left;
     padding-left: 10px;
     padding-right: 10px;

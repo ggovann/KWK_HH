@@ -1,10 +1,13 @@
 def health_quiz(user_value)
-		if user_value<4
+		if user_value <4
 		     "unhealthy"
-			elsif user_value <7
+				#  puts "unhealthy"
+			 elsif user_value <7
 			       "normal"
+						#  puts "normal"
 		        elsif user_value <10
 			            "healthy"
+									# puts "healthy"
 		end
 	end
 

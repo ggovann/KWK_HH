@@ -26,32 +26,35 @@ end
 
 
 post  '/results' do
-  answers = params.values
-  @total= 0
- answers.each do |answer|
- @total += answer.to_i
- end
+   answers = params.values
+   @total= 0
+   answers.each do |answer|
+     @total += answer.to_i
+   end
+   puts @total
 #
  puts @total
+
  @health = health_quiz(@total)
-if @health = "female_teen_unhealthy"
-erb :female_teen_unhealthy
-elsif @health == "female_teen_normal"
-erb :female_teen_normal
-elsif @health == "female_teen_healthy"
-     erb :female_teen_healthy
-  end
-
-   @health = health_quiz(@total)
-  if @health = "unhealthy"
+if @health == "healthy"
+erb :healthy
+elsif @health == "normal"
+erb :normal
+elsif @health == "unhealthy"
      erb :unhealthy
-  elsif @health == "normal"
-    erb :normal
-  elsif @health == "healthy"
-    erb :healthy
-
-    end
   end
+end
+
+  #  @health = health_quiz(@total)
+  # if @health = "unhealthy"
+  #    erb :unhealthy
+  # elsif @health == "normal"
+  #   erb :normal
+  # elsif @health == "healthy"
+  #   erb :healthy
+
+    # end
+  # end
 end
 #
 #   @health = health_quiz(@total)
